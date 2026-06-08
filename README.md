@@ -1,15 +1,19 @@
-# Contribution [#]: [Issue Title]
+# Contribution [1]: 
+Enable skipped tests on aarch64 by making them architecture-agnostic (x86-64 & aarch64)
 
-**Contribution Number:** [1 / 2 / 3]  
-**Student:** [Aditya Arya]  
-**Issue:** [GitHub issue link]  
+
+**Contribution Number:** 1  
+**Student:** Aditya Arya  
+**Issue:** [https://github.com/pwndbg/pwndbg/issues/3495]  
 **Status:** [Phase I] [Complete]
 
 ---
 
 ## Why I Chose This Issue
 
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
+As an engineering student, this project caught my eye because it deals with a massive shift happening in technology right now: making software work seamlessly across different types of computers. A lot of older software tools were built assuming everyone was using traditional Intel or AMD processors. Now that so many people use newer, efficient chips—like Apple's M-series processors or ARM chips in modern servers—tools have to adapt. Right now, this project has to skip its automated tests on those newer chips because the test files were written with old assumptions. By fixing this, I can help ensure that when developers update the tool, it won't accidentally break for millions of users on newer computers.
+
+By working on this, I hope to learn how professional software teams manage and test their code automatically behind the scenes. I want to move past just writing small personal scripts and instead learn how to write flexible tests that adapt to whatever computer they are running on. On top of that, diving into this codebase will give me a much closer look at how software interacts directly with different computer systems and hardware layouts, which is exactly the kind of practical engineering experience I want to build.
 
 ---
 
